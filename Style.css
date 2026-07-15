@@ -8,6 +8,7 @@ css
     font-family:'Poppins', sans-serif;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    box-shadow:none
     
 }
 
@@ -101,6 +102,7 @@ nav ul li a:hover{
 
 }
 
+
 .hero-text p{
 
     font-size:20px;
@@ -111,6 +113,10 @@ nav ul li a:hover{
 
     margin-bottom:35px;
 
+}
+.btn:active, .btn:focus{
+      outline: none;
+        box-shadow: none;
 }
 
 .btn{
@@ -130,7 +136,8 @@ nav ul li a:hover{
     font-weight:bold;
 
     transition:.3s;
-
+  -webkit-tap-highlight-color: transparent;
+    
 }
 
 .btn:hover{
@@ -138,8 +145,9 @@ nav ul li a:hover{
     background:white;
 
     transform:translateY(-5px);
-
-    box-shadow:0 0 25px #7CFC00;
+        outline: none;
+        box-shadow: none;
+    
 
 }
 
@@ -543,6 +551,10 @@ PLANES
     margin:15px 0;
 
 }
+    .btn-plan:focus, .btn-plan:active {
+        outline: none;
+        box-shadow: none;
+    }
 
 .btn-plan{
 
